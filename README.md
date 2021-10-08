@@ -17,6 +17,7 @@ For reconstruction methods that need a spin-up, the **observations** can be used
 
 ## Leaderboard
 | Method     |   µ(RMSE) |   σ(RMSE) |   λx (degree) |   λt (days) | Notes                     | Reference        |
+|:-----------|------------------------:|---------------------:|-------------------------:|-----------------------:|:--------------------------|:-----------------|
 
 **µ(RMSE)**: average RMSE score.  
 **σ(RMSE)**: standard deviation of the RMSE score.  
