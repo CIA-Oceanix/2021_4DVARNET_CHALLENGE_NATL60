@@ -15,11 +15,11 @@ The SSH observations include simulations of Topex-Poseidon, Jason 1, Geosat Foll
 The SSH reconstructions are assessed over the period from 2012-10-22 to 2012-12-02: 42 days, which is equivalent to two SWOT cycles in the SWOT science phase orbit.
 For reconstruction methods that need a spin-up, the **observations** can be used from 2012-10-01 until the beginning of the evaluation period (21 days). This spin-up period is not included in the evaluation. For reconstruction methods that need learning from full fields, the **reference data** can be used from 2013-01-02 to 2013-09-30. The reference data between 2012-12-02 and 2013-01-02 should never be used so that any learning period or other method-related-training period can be considered uncorrelated to the evaluation period.
 
-## Results to provide
+## Results to provide
 
-    * Train model on GF zone and test on GF zone.
-    * Train model on GF2 (lat : [42,52] and lon : [-45,35], patch 200\*200) located along GF (but different of GF test zone) over one year and test on GF zone during BOOST_SWOT period.
-    * fine-tuning of NATL model on GF zone.
+1. Train model on GF zone and test on GF zone.
+1. Train model on GF2 (lat : [42,52] and lon : [-45,35], patch 200\*200) located along GF (but different of GF test zone) over one year and test on GF zone during BOOST_SWOT period.
+1. fine-tuning of NATL model on GF zone.
 
 ## Leaderboard
 | Method     |   µ(RMSE) |   σ(RMSE) |   λx (degree) |   λt (days) | Notes                     | Reference        |
