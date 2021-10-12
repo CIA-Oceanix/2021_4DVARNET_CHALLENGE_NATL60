@@ -31,20 +31,6 @@ For reconstruction methods that need a spin-up, the **observations** can be used
 **λt**: minimum time scale resolved. 
 
 ## Dowload the data
-The data is available at
-```
-# obs
-https://s3.eu-central-1.wasabisys.com/melody/NATL/data/gridded_data_swot_wocorr/dataset_nadir_0d_swot.nc
-https://s3.eu-central-1.wasabisys.com/melody/NATL/data/gridded_data_swot_wocorr/dataset_nadir_0d.nc
-https://s3.eu-central-1.wasabisys.com/melody/NATL/data/gridded_data_swot_wocorr/dataset_swot.nc
-#oi
-https://s3.eu-central-1.wasabisys.com/melody/NATL/oi/ssh_NATL60_4nadir.nc
-https://s3.eu-central-1.wasabisys.com/melody/NATL/oi/ssh_NATL60_swot_4nadir.nc
-https://s3.eu-central-1.wasabisys.com/melody/NATL/oi/ssh_NATL60_swot.nc
-#ref
-https://s3.eu-central-1.wasabisys.com/melody/NATL/ref/NATL60-CJM165_NATL_ssh_y2013.1y.nc
-https://s3.eu-central-1.wasabisys.com/melody/NATL/ref/NATL60-CJM165_NATL_sst_y2013.1y.nc
-```
 
 ## Baseline and evaluation
 
