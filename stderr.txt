@@ -1,0 +1,995 @@
+[D 15:06:57.438 NotebookApp] Searching ['/gpfsdswork/projects/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60', '/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter', '/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 15:06:57.438 NotebookApp] Looking for jupyter_config in /etc/jupyter
+[D 15:06:57.439 NotebookApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 15:06:57.439 NotebookApp] Looking for jupyter_config in /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter
+[D 15:06:57.440 NotebookApp] Looking for jupyter_config in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter
+[D 15:06:57.440 NotebookApp] Looking for jupyter_config in /gpfsdswork/projects/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60
+[D 15:06:57.441 NotebookApp] Looking for jupyter_notebook_config in /etc/jupyter
+[D 15:06:57.441 NotebookApp] Looking for jupyter_notebook_config in /usr/local/etc/jupyter
+[D 15:06:57.441 NotebookApp] Looking for jupyter_notebook_config in /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter
+[D 15:06:57.441 NotebookApp] Looking for jupyter_notebook_config in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter
+[D 15:06:57.442 NotebookApp] Loaded config file: /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/jupyter_notebook_config.py
+[D 15:06:57.442 NotebookApp] Loaded config file: /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/jupyter_notebook_config.json
+[D 15:06:57.442 NotebookApp] Looking for jupyter_notebook_config in /gpfsdswork/projects/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60
+[D 15:06:57.484 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 15:06:57.485 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 15:06:57.485 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/jupyter_notebook_config.json
+[D 15:06:57.485 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/jupyter_notebook_config.json
+[I 15:06:58.574 NotebookApp] Serving notebooks from local directory: /gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60
+[I 15:06:58.574 NotebookApp] Jupyter Notebook 6.4.4 is running at:
+[I 15:06:58.574 NotebookApp] https://r11i5n5:8009/r11i5n5_8009/
+[I 15:06:58.574 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:07:33.327 NotebookApp] 302 GET /r11i5n5_8009/ (10.148.0.38) 0.590000ms
+[I 15:07:33.369 NotebookApp] 302 GET /r11i5n5_8009/tree? (10.148.0.38) 0.560000ms
+[D 15:07:33.412 NotebookApp] Using contents: services/contents
+[D 15:07:33.445 NotebookApp] Path base/images/favicon.ico served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/base/images/favicon.ico
+[D 15:07:33.449 NotebookApp] Path components/jquery-ui/themes/smoothness/jquery-ui.min.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css
+[D 15:07:33.454 NotebookApp] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[D 15:07:33.456 NotebookApp] Path style/style.min.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/style/style.min.css
+[D 15:07:33.459 NotebookApp] Path auth/css/override.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/auth/css/override.css
+[D 15:07:33.461 NotebookApp] Path components/es6-promise/promise.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/es6-promise/promise.min.js
+[D 15:07:33.468 NotebookApp] Path components/react/react.production.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/react/react.production.min.js
+[D 15:07:33.469 NotebookApp] Path components/react/react-dom.production.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/react/react-dom.production.min.js
+[D 15:07:33.472 NotebookApp] Path components/create-react-class/index.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/create-react-class/index.js
+[D 15:07:33.475 NotebookApp] Path components/requirejs/require.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/requirejs/require.js
+[D 15:07:33.477 NotebookApp] Path base/images/logo.png served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/base/images/logo.png
+[D 15:07:33.478 NotebookApp] 200 GET /r11i5n5_8009/login?next=%2Fr11i5n5_8009%2Ftree%3F (10.148.0.38) 67.560000ms
+[D 15:07:33.739 NotebookApp] 200 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 2.030000ms
+[D 15:07:33.740 NotebookApp] 200 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 0.900000ms
+[D 15:07:33.780 NotebookApp] Path custom.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/custom/custom.css
+[D 15:07:33.781 NotebookApp] 200 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 2.760000ms
+[D 15:07:33.781 NotebookApp] 200 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 44.900000ms
+[D 15:07:33.786 NotebookApp] 200 GET /r11i5n5_8009/static/auth/css/override.css?v=7d24c52c4d63c7ed3ca286c051f232acd6a5ee3ed2aa32f56bea22ef20a2e3d184a638aad5602a39e8d5ef9a66ed93fdbaf80cf979948a947bab117618bd6486 (10.148.0.38) 0.800000ms
+[D 15:07:33.796 NotebookApp] 200 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 0.800000ms
+[D 15:07:33.840 NotebookApp] 200 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 0.790000ms
+[D 15:07:33.860 NotebookApp] 200 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 1.050000ms
+[D 15:07:33.861 NotebookApp] 200 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 1.050000ms
+[D 15:07:33.863 NotebookApp] 200 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 0.830000ms
+[D 15:07:33.951 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.790000ms
+[D 15:07:33.992 NotebookApp] Path auth/js/main.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/auth/js/main.min.js
+[D 15:07:33.994 NotebookApp] 200 GET /r11i5n5_8009/static/auth/js/main.min.js?v=20211013150657 (10.148.0.38) 4.320000ms
+[D 15:07:34.154 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/favicon.ico?v=50afa725b5de8b00030139d09b38620224d4e7dba47c07ef0e86d4643f30c9bfe6bb7e1a4a1c561aa32834480909a4b6fe7cd1e17f7159330b6b5914bf45a880 (10.148.0.38) 0.840000ms
+[I 15:07:36.323 NotebookApp] 302 POST /r11i5n5_8009/login?next=%2Fr11i5n5_8009%2Ftree%3F (10.148.0.38) 64.240000ms
+[D 15:07:36.369 NotebookApp] Using contents: services/contents
+[D 15:07:36.402 NotebookApp] Path tree/js/main.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/tree/js/main.min.js
+[D 15:07:36.407 NotebookApp] 200 GET /r11i5n5_8009/tree? (10.148.0.38) 38.130000ms
+[D 15:07:36.518 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 2.050000ms
+[D 15:07:36.518 NotebookApp] 304 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 2.270000ms
+[D 15:07:36.519 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 2.530000ms
+[D 15:07:36.519 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 2.810000ms
+[D 15:07:36.520 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 3.080000ms
+[D 15:07:36.521 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 0.790000ms
+[D 15:07:36.559 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 0.810000ms
+[D 15:07:36.571 NotebookApp] 304 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 0.740000ms
+[D 15:07:36.580 NotebookApp] 304 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 0.730000ms
+[D 15:07:36.627 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.730000ms
+[D 15:07:36.663 NotebookApp] 200 GET /r11i5n5_8009/static/tree/js/main.min.js?v=604545c5a03181574a6034cdf6d45bfe77bd484f5d1e18ff7ad2d0f44c1dffb07bf69cea3036d824c2148ab1208c7b6d8649c692aef911db079f46fe95d33e34 (10.148.0.38) 42.850000ms
+[D 15:07:38.940 NotebookApp] Path services/contents.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/services/contents.js
+[D 15:07:38.942 NotebookApp] 200 GET /r11i5n5_8009/static/services/contents.js?v=20211013150657 (10.148.0.38) 3.800000ms
+[D 15:07:39.004 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 15:07:39.005 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 15:07:39.007 NotebookApp] Paths used for configuration of tree: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/tree.json
+[D 15:07:39.007 NotebookApp] Paths used for configuration of tree: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/tree.json
+[D 15:07:39.007 NotebookApp] 200 GET /r11i5n5_8009/api/config/tree?_=1634130458007 (10.148.0.38) 4.210000ms
+[D 15:07:39.016 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 15:07:39.016 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 15:07:39.017 NotebookApp] Paths used for configuration of common: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/common.json
+[D 15:07:39.017 NotebookApp] Paths used for configuration of common: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/common.json
+[D 15:07:39.018 NotebookApp] 200 GET /r11i5n5_8009/api/config/common?_=1634130458008 (10.148.0.38) 3.060000ms
+[D 15:07:39.021 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458009 (10.148.0.38) 0.850000ms
+[D 15:07:39.109 NotebookApp] Found kernel mmaenv in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:39.109 NotebookApp] Found kernel notebooks in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:39.110 NotebookApp] Found kernel notebooksbis in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:39.113 NotebookApp] Found kernel python3 in /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/share/jupyter/kernels
+[D 15:07:39.682 NotebookApp] 200 GET /r11i5n5_8009/api/kernelspecs (10.148.0.38) 661.830000ms
+[D 15:07:39.685 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458010 (10.148.0.38) 2.050000ms
+[D 15:07:39.690 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458011 (10.148.0.38) 0.730000ms
+[D 15:07:39.693 NotebookApp] Path components/font-awesome/fonts/fontawesome-webfont.woff2 served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/font-awesome/fonts/fontawesome-webfont.woff2
+[D 15:07:39.695 NotebookApp] 200 GET /r11i5n5_8009/static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (10.148.0.38) 4.270000ms
+[D 15:07:39.696 NotebookApp] Path custom.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/custom/custom.js
+[D 15:07:39.697 NotebookApp] 200 GET /r11i5n5_8009/custom/custom.js?v=20211013150657 (10.148.0.38) 1.610000ms
+/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[D 15:07:39.905 NotebookApp] 200 GET /r11i5n5_8009/api/contents?type=directory&_=1634130458012 (10.148.0.38) 117.900000ms
+[D 15:07:43.579 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458013 (10.148.0.38) 34.820000ms
+[D 15:07:45.585 NotebookApp] Using contents: services/contents
+[D 15:07:45.632 NotebookApp] Path base/images/favicon-notebook.ico served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/base/images/favicon-notebook.ico
+[D 15:07:45.635 NotebookApp] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[D 15:07:45.637 NotebookApp] Path components/codemirror/lib/codemirror.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/codemirror/lib/codemirror.css
+[D 15:07:45.640 NotebookApp] Path notebook/css/override.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/notebook/css/override.css
+[D 15:07:46.401 NotebookApp] Path components/text-encoding/lib/encoding.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/text-encoding/lib/encoding.js
+[D 15:07:46.404 NotebookApp] Path notebook/js/main.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/notebook/js/main.min.js
+[D 15:07:46.415 NotebookApp] 200 GET /r11i5n5_8009/notebooks/notebooks/eval_4dvarnet.ipynb (10.148.0.38) 830.160000ms
+[D 15:07:46.516 NotebookApp] Path components/MathJax/MathJax.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/MathJax.js
+[D 15:07:46.517 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (10.148.0.38) 3.050000ms
+[D 15:07:46.519 NotebookApp] 200 GET /r11i5n5_8009/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css?v=95c93e52db61ab29625defe55361384ce6776a7d303b97da5a73fef5ddf8e391a6223599a0b58669476bd71645a4f0022df0517c88b0c05df80ba465e36f5417 (10.148.0.38) 0.890000ms
+[D 15:07:46.568 NotebookApp] 200 GET /r11i5n5_8009/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e (10.148.0.38) 1.100000ms
+[D 15:07:46.570 NotebookApp] 200 GET /r11i5n5_8009/static/notebook/css/override.css?v=16733f6ba5f2224692fe4e654f3cbb2e3cae82f1df06ca53aa1cb88b147465f16c968c0898e2b0203a7ad3a469f82b959e26bb4b27b790f7f364c4336449b0aa (10.148.0.38) 0.970000ms
+[D 15:07:46.571 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 0.780000ms
+[D 15:07:46.572 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 0.800000ms
+[D 15:07:46.577 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 0.750000ms
+[D 15:07:46.579 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 0.730000ms
+[D 15:07:46.613 NotebookApp] 304 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 0.750000ms
+[D 15:07:46.628 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 0.740000ms
+[D 15:07:46.635 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 0.740000ms
+[D 15:07:46.640 NotebookApp] 304 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 0.750000ms
+[D 15:07:46.642 NotebookApp] 304 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 0.730000ms
+[D 15:07:46.697 NotebookApp] 200 GET /r11i5n5_8009/static/components/text-encoding/lib/encoding.js?v=737ac6f9f978afb6348b5914877e7d7136de7465cd4cdf389bad9a6b3ad5ceffbfb23febc75c23378967d7d36f98f5388208e8eb78c80f2bf47e8f8c000481ad (10.148.0.38) 1.000000ms
+[D 15:07:46.705 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.750000ms
+[D 15:07:46.707 NotebookApp] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[D 15:07:46.733 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (10.148.0.38) 27.390000ms
+[D 15:07:46.784 NotebookApp] 200 GET /r11i5n5_8009/static/notebook/js/main.min.js?v=161423d79a35dd7426e0b3524b625b01ecabb55fc588d8389618d1e0a42d0228d3cc648d8fb359f7c63e12dcd4a3d22ad844b6808c49cdd2cf6c92c802f793e1 (10.148.0.38) 86.750000ms
+[D 15:07:47.022 NotebookApp] Path components/MathJax/config/Safe.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/config/Safe.js
+[D 15:07:47.023 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/config/Safe.js?V=2.7.9 (10.148.0.38) 1.900000ms
+[D 15:07:49.595 NotebookApp] 304 GET /r11i5n5_8009/static/services/contents.js?v=20211013150657 (10.148.0.38) 0.960000ms
+[D 15:07:49.718 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico?v=eb02bb6f6435d048eba1bf1bd3b3621f8c14f26518dbadd8efd4ee6ee2721caf2367bc0cbc27d2ee2c35bc3b035aad07c6d625422b9445bf301897f493d0edc5 (10.148.0.38) 0.960000ms
+[D 15:07:49.725 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 15:07:49.725 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 15:07:49.727 NotebookApp] Paths used for configuration of notebook: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/notebook.json
+[D 15:07:49.728 NotebookApp] Paths used for configuration of notebook: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/notebook.json
+[D 15:07:49.729 NotebookApp] 200 GET /r11i5n5_8009/api/config/notebook?_=1634130468658 (10.148.0.38) 4.560000ms
+[D 15:07:49.730 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 15:07:49.730 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 15:07:49.731 NotebookApp] Paths used for configuration of common: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/common.json
+[D 15:07:49.731 NotebookApp] Paths used for configuration of common: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/common.json
+[D 15:07:49.732 NotebookApp] 200 GET /r11i5n5_8009/api/config/common?_=1634130468659 (10.148.0.38) 2.300000ms
+[D 15:07:49.750 NotebookApp] Path components/MathJax/extensions/MathML/content-mathml.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/extensions/MathML/content-mathml.js
+[D 15:07:49.752 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (10.148.0.38) 4.630000ms
+[D 15:07:49.753 NotebookApp] Path components/MathJax/extensions/TeX/begingroup.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/extensions/TeX/begingroup.js
+[D 15:07:49.754 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (10.148.0.38) 6.170000ms
+[D 15:07:49.755 NotebookApp] Path components/MathJax/extensions/TeX/newcommand.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/extensions/TeX/newcommand.js
+[D 15:07:49.756 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (10.148.0.38) 1.900000ms
+[D 15:07:49.780 NotebookApp] Found kernel mmaenv in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:49.780 NotebookApp] Found kernel notebooks in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:49.780 NotebookApp] Found kernel notebooksbis in /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels
+[D 15:07:49.780 NotebookApp] Found kernel python3 in /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/share/jupyter/kernels
+[D 15:07:49.782 NotebookApp] 304 GET /r11i5n5_8009/api/kernelspecs (10.148.0.38) 3.310000ms
+[W 15:07:50.320 NotebookApp] The signatures database cannot be opened; maybe it is corrupted or encrypted. You may need to rerun your notebooks to ensure that they are trusted to run Javascript. The old signatures database has been renamed to /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/nbsignatures.db.bak and a new one has been created.
+[W 15:07:50.553 NotebookApp] Failed commiting signatures database to disk. You may need to move the database file to a non-networked file system, using config option `NotebookNotary.db_file`. Using in-memory signatures database for the remainder of this session.
+[W 15:07:50.586 NotebookApp] Notebook notebooks/eval_4dvarnet.ipynb is not trusted
+[D 15:07:50.763 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb?type=notebook&_=1634130468660 (10.148.0.38) 919.540000ms
+[D 15:07:50.777 NotebookApp] 304 GET /r11i5n5_8009/static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (10.148.0.38) 1.970000ms
+[D 15:07:50.781 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[D 15:07:50.782 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (10.148.0.38) 6.720000ms
+[D 15:07:50.783 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.js?v=20211013150657 (10.148.0.38) 6.990000ms
+[D 15:07:50.785 NotebookApp] Path jupyter-js-widgets/extension.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+[D 15:07:50.789 NotebookApp] Path components/MathJax/extensions/Safe.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/extensions/Safe.js
+[D 15:07:50.790 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/extensions/Safe.js?V=2.7.9 (10.148.0.38) 2.090000ms
+[D 15:07:50.829 NotebookApp] 200 GET /r11i5n5_8009/nbextensions/jupyter-js-widgets/extension.js?v=20211013150657 (10.148.0.38) 53.210000ms
+[D 15:07:54.649 NotebookApp] Instantiating kernel 'notebooks' with kernel provisioner: local-provisioner
+[D 15:07:54.742 NotebookApp] Starting kernel: ['/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/bin/python3.9', '-m', 'ipykernel_launcher', '-f', '/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/runtime/kernel-8e61e7bb-6c40-416e-9be4-3f7f540a8c28.json']
+[D 15:07:54.752 NotebookApp] Connecting to: tcp://127.0.0.1:40805
+[D 15:07:54.754 NotebookApp] Connecting to: tcp://127.0.0.1:49717
+[I 15:07:54.755 NotebookApp] Kernel started: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28, name: notebooks
+[D 15:07:54.755 NotebookApp] Kernel args: {'kernel_name': 'notebooks', 'cwd': '/gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60/notebooks'}
+[D 15:07:54.756 NotebookApp] Serving kernel resource from: /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/kernels/notebooks
+[D 15:07:54.774 NotebookApp] 200 GET /r11i5n5_8009/kernelspecs/notebooks/logo-64x64.png (10.148.0.38) 18.490000ms
+[D 15:07:54.792 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb/checkpoints?_=1634130468661 (10.148.0.38) 18.240000ms
+[D 15:07:54.793 NotebookApp] 201 POST /r11i5n5_8009/api/sessions (10.148.0.38) 160.560000ms
+[D 15:07:54.874 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js
+[D 15:07:54.875 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Italic/Main.js?V=2.7.9 (10.148.0.38) 3.870000ms
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | History file was moved to /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history-corrupt.sqlite and a new file created.
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | History file was moved to /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history-corrupt.sqlite and a new file created.
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | Failed to load history too many times, history will not be saved.
+[D 15:07:56.223 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (starting)
+[D 15:07:56.490 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js
+[D 15:07:56.491 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Normal/Italic/Main.js?V=2.7.9 (10.148.0.38) 5.200000ms
+[D 15:07:57.597 NotebookApp] Path base/images/favicon-busy-1.ico served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/base/images/favicon-busy-1.ico
+[D 15:07:57.598 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 1.840000ms
+[D 15:07:58.792 NotebookApp] Initializing websocket connection /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels
+[D 15:07:58.793 NotebookApp] Requesting kernel info from 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.793 NotebookApp] Connecting to: tcp://127.0.0.1:52359
+[D 15:07:58.796 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:07:58.797 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:07:58.797 NotebookApp] Received kernel info: {'status': 'ok', 'protocol_version': '5.3', 'implementation': 'ipython', 'implementation_version': '7.28.0', 'language_info': {'name': 'python', 'version': '3.9.7', 'mimetype': 'text/x-python', 'codemirror_mode': {'name': 'ipython', 'version': 3}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py'}, 'banner': "Python 3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:20:46) \nType 'copyright', 'credits' or 'license' for more information\nIPython 7.28.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'help_links': [{'text': 'Python Reference', 'url': 'https://docs.python.org/3.9'}, {'text': 'IPython Reference', 'url': 'https://ipython.org/documentation.html'}, {'text': 'NumPy Reference', 'url': 'https://docs.scipy.org/doc/numpy/reference/'}, {'text': 'SciPy Reference', 'url': 'https://docs.scipy.org/doc/scipy/reference/'}, {'text': 'Matplotlib Reference', 'url': 'https://matplotlib.org/contents.html'}, {'text': 'SymPy Reference', 'url': 'http://docs.sympy.org/latest/index.html'}, {'text': 'pandas Reference', 'url': 'https://pandas.pydata.org/pandas-docs/stable/'}]}
+[D 15:07:58.798 NotebookApp] 101 GET /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels?session_id=3968280249304812bf6a090305f3474c (10.148.0.38) 6.370000ms
+[D 15:07:58.798 NotebookApp] Opening websocket /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels
+[D 15:07:58.798 NotebookApp] Getting buffer for 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.798 NotebookApp] Connecting to: tcp://127.0.0.1:49717
+[D 15:07:58.798 NotebookApp] Connecting to: tcp://127.0.0.1:52359
+[D 15:07:58.799 NotebookApp] Connecting to: tcp://127.0.0.1:40805
+[D 15:07:58.799 NotebookApp] Connecting to: tcp://127.0.0.1:38341
+[D 15:07:58.799 NotebookApp] Connecting to: tcp://127.0.0.1:52359
+[D 15:07:58.800 NotebookApp] Nudge: attempt 1 on kernel 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.801 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:07:58.802 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:07:58.802 NotebookApp] Nudge: IOPub received: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.802 NotebookApp] Nudge: resolving iopub future: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.802 NotebookApp] Nudge: shell info reply received: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:07:58.802 NotebookApp] Nudge: resolving shell future: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[D 15:07:58.833 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:07:58.834 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:07:58.836 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:07:58.837 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:07:58.871 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 0.950000ms
+[D 15:07:58.880 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff
+[D 15:07:58.881 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Normal-Italic.woff?V=2.7.9 (10.148.0.38) 6.190000ms
+[D 15:07:58.958 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js
+[D 15:07:58.959 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/Main/Regular/Main.js?V=2.7.9 (10.148.0.38) 2.730000ms
+[D 15:07:59.108 NotebookApp] Path components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff
+[D 15:07:59.110 NotebookApp] 200 GET /r11i5n5_8009/static/components/MathJax/fonts/HTML-CSS/STIX-Web/woff/STIXMathJax_Main-Regular.woff?V=2.7.9 (10.148.0.38) 3.410000ms
+[D 15:08:00.177 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:08:00.178 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:08:00.509 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: error
+[D 15:08:00.511 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:08:46.360 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:08:46.360 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:08:46.403 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:08:46.505 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:10:08.534 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb?content=0&_=1634130468662 (10.148.0.38) 1.100000ms
+[I 15:10:17.784 NotebookApp] Saving file at /notebooks/eval_4dvarnet.ipynb
+[D 15:10:17.784 NotebookApp] Saving /gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60/notebooks/eval_4dvarnet.ipynb
+[W 15:10:17.785 NotebookApp] Notebook notebooks/eval_4dvarnet.ipynb is not trusted
+[D 15:10:18.003 NotebookApp] 200 PUT /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb (10.148.0.38) 375.340000ms
+[D 15:15:24.186 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:24.203 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:25.321 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 2.110000ms
+[D 15:15:30.984 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:15:30.985 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:15:31.085 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:15:31.753 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:35.951 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 1.330000ms
+[D 15:15:36.946 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:36.946 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:36.948 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:36.949 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:36.950 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:36.958 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:36.959 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:37.030 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:15:37.132 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:38.292 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:38.293 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:38.294 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:38.310 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:38.311 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:38.312 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:15:38.313 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:39.356 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:39.356 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:39.357 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:39.373 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:39.373 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:39.375 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:41.221 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:41.221 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:41.222 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:41.237 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:41.237 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:41.240 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:41.645 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:41.645 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:41.646 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:41.661 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:41.662 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:42.248 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:43.110 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:43.110 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:43.111 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:43.126 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:43.127 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:43.128 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:48.073 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:48.074 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_msg
+[D 15:15:48.075 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:15:48.089 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:15:48.090 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:15:48.960 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: error
+[D 15:15:48.962 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:16:30.956 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 1.690000ms
+[D 15:16:30.973 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 4.980000ms
+[D 15:16:30.976 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 2.510000ms
+[D 15:16:30.979 NotebookApp] 304 GET /r11i5n5_8009/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css?v=95c93e52db61ab29625defe55361384ce6776a7d303b97da5a73fef5ddf8e391a6223599a0b58669476bd71645a4f0022df0517c88b0c05df80ba465e36f5417 (10.148.0.38) 2.870000ms
+[D 15:16:30.981 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e (10.148.0.38) 2.100000ms
+[D 15:16:30.983 NotebookApp] 304 GET /r11i5n5_8009/static/notebook/css/override.css?v=16733f6ba5f2224692fe4e654f3cbb2e3cae82f1df06ca53aa1cb88b147465f16c968c0898e2b0203a7ad3a469f82b959e26bb4b27b790f7f364c4336449b0aa (10.148.0.38) 1.610000ms
+[D 15:16:31.035 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 0.920000ms
+[D 15:16:31.051 NotebookApp] Path notebook/js/main.min.js.map served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/notebook/js/main.min.js.map
+[D 15:16:31.079 NotebookApp] Path jupyter-js-widgets/extension.js.map served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map
+[D 15:16:31.122 NotebookApp] Path style/style.min.css.map served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/style/style.min.css.map
+[D 15:16:31.123 NotebookApp] 200 GET /r11i5n5_8009/static/style/style.min.css.map (10.148.0.38) 2.740000ms
+[D 15:16:31.679 NotebookApp] 200 GET /r11i5n5_8009/nbextensions/jupyter-js-widgets/extension.js.map (10.148.0.38) 622.700000ms
+[D 15:16:32.915 NotebookApp] 200 GET /r11i5n5_8009/static/notebook/js/main.min.js.map (10.148.0.38) 1864.660000ms
+[D 15:17:29.735 NotebookApp] Websocket closed 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:3968280249304812bf6a090305f3474c
+[I 15:17:29.765 NotebookApp] Starting buffering for 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:3968280249304812bf6a090305f3474c
+[D 15:17:29.765 NotebookApp] Clearing buffer for 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:29.811 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:29.811 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: shutdown_reply
+[D 15:17:29.811 NotebookApp] Buffering msg on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:iopub
+[D 15:17:29.811 NotebookApp] Buffering msg on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:iopub
+[D 15:17:29.818 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:29.818 NotebookApp] Buffering msg on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:iopub
+[D 15:17:30.608 NotebookApp] Starting kernel: ['/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/bin/python3.9', '-m', 'ipykernel_launcher', '-f', '/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.local/share/jupyter/runtime/kernel-8e61e7bb-6c40-416e-9be4-3f7f540a8c28.json']
+[D 15:17:30.615 NotebookApp] Connecting to: tcp://127.0.0.1:40805
+[I 15:17:30.616 NotebookApp] Kernel restarted: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:30.616 NotebookApp] Connecting to: tcp://127.0.0.1:52359
+[D 15:17:30.617 NotebookApp] 200 POST /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/restart (10.148.0.38) 815.620000ms
+[D 15:17:30.960 NotebookApp] Initializing websocket connection /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels
+[D 15:17:30.962 NotebookApp] 101 GET /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels?session_id=3968280249304812bf6a090305f3474c (10.148.0.38) 2.260000ms
+[D 15:17:30.962 NotebookApp] Opening websocket /r11i5n5_8009/api/kernels/8e61e7bb-6c40-416e-9be4-3f7f540a8c28/channels
+[D 15:17:30.962 NotebookApp] Getting buffer for 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[I 15:17:30.962 NotebookApp] Restoring connection for 8e61e7bb-6c40-416e-9be4-3f7f540a8c28:3968280249304812bf6a090305f3474c
+[D 15:17:30.962 NotebookApp] Connecting to: tcp://127.0.0.1:52359
+[D 15:17:30.963 NotebookApp] Nudge: attempt 1 on kernel 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:31.464 NotebookApp] Nudge: attempt 2 on kernel 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:31.964 NotebookApp] Nudge: attempt 3 on kernel 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | History file was moved to /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history-corrupt.sqlite and a new file created.
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | History file was moved to /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history-corrupt.sqlite and a new file created.
+[IPKernelApp] ERROR | Failed to open SQLite history /gpfs7kw/linkhome/rech/genlst01/ueh53pd/.ipython/profile_default/history.sqlite (disk I/O error).
+[IPKernelApp] ERROR | Failed to load history too many times, history will not be saved.
+[D 15:17:32.044 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (starting)
+[D 15:17:32.045 NotebookApp] Nudge: IOPub received: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:32.045 NotebookApp] Nudge: resolving iopub future: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:32.046 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:32.046 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:32.046 NotebookApp] Nudge: shell info reply received: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:32.046 NotebookApp] Nudge: resolving shell future: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[I 15:17:32.047 NotebookApp] Replaying 3 buffered messages
+[D 15:17:32.049 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:32.049 NotebookApp] Kernel info reply received: 8e61e7bb-6c40-416e-9be4-3f7f540a8c28
+[D 15:17:32.051 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:32.052 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:32.053 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:32.054 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:32.054 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:32.115 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:32.116 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] ERROR | No such comm target registered: hv-extension-comm
+[D 15:17:37.512 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:37.513 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: comm_close
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:37.514 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:37.515 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:37.516 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:37.533 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:37.533 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:38.630 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 3.660000ms
+[D 15:17:41.032 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:17:41.033 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:17:41.134 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:41.322 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:41.323 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.324 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:41.325 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.325 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:41.398 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:17:41.501 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:41.503 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.503 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:41.506 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.506 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:41.507 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:41.509 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:41.510 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.511 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:41.511 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:41.512 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:41.513 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:44.307 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:44.307 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:44.309 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:44.309 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:44.319 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:44.321 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:44.322 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:44.323 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:44.324 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:44.503 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:45.101 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:45.102 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:45.117 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:45.118 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:45.120 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:45.220 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 1.080000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:17:49.808 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:49.808 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:17:49.824 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:17:49.824 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:17:50.006 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:17:50.008 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:00.781 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:00.782 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:00.798 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:00.799 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:00.801 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:06.395 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:06.396 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:06.410 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:06.414 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:06.423 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:18:06.425 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:13.259 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:13.259 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:13.276 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:13.284 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:13.326 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:13.428 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:14.123 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:14.124 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:14.140 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:14.140 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:14.198 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:18:14.203 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:17.888 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:17.888 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:17.904 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:17.905 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:17.907 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:18.208 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb?content=0&_=1634130468663 (10.148.0.38) 1.050000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:18:18.431 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:18.432 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:18.449 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:18:18.449 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:18:18.452 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.532 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.628 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.628 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.630 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.752 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.783 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.890 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:18.991 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.092 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.192 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.293 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.394 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.495 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.496 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.534 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 0.900000ms
+[D 15:18:19.627 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.713 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.813 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:19.914 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.015 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.116 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.217 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.318 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.418 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:20.419 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[I 15:18:20.495 NotebookApp] Saving file at /notebooks/eval_4dvarnet.ipynb
+[D 15:18:20.495 NotebookApp] Saving /gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60/notebooks/eval_4dvarnet.ipynb
+[W 15:18:20.496 NotebookApp] Notebook notebooks/eval_4dvarnet.ipynb is not trusted
+[D 15:18:21.025 NotebookApp] 200 PUT /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb (10.148.0.38) 2551.470000ms
+[D 15:18:21.026 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:21.027 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:21.028 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:18:21.726 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: error
+[D 15:18:21.728 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:18:21.848 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 0.900000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:14.241 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:14.241 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:14.256 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:14.257 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:14.260 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.341 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.413 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.414 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.416 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.662 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.763 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.864 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:14.965 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.066 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.167 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.268 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.369 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.397 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 5.370000ms
+[D 15:19:15.469 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.471 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.596 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.682 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.783 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.884 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:15.984 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.085 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.186 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.288 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.388 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.390 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.436 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.437 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.697 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:16.699 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:16.817 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 1.080000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:20.891 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:20.891 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:20.908 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:20.909 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:20.965 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:21.067 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:21.717 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:21.717 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:21.733 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:21.734 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:21.789 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:19:21.791 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:22.524 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:22.525 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:22.540 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:22.540 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:22.543 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:23.194 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:23.195 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:23.211 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:23.212 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:23.214 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.282 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.355 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.356 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.357 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.517 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.623 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.724 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.825 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:23.927 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.027 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.128 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.229 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.231 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.311 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 0.950000ms
+[D 15:19:24.473 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.580 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.680 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.781 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.882 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:24.984 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.085 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.186 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.287 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.288 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.335 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.338 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.492 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 15:19:25.493 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:25.584 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 0.910000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:28.451 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:28.452 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:28.471 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:28.489 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:28.644 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:19:28.679 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:19:28.681 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:29.682 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:29.682 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:29.701 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:29.701 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:30.019 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:19:30.084 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 15:19:30.084 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:30.465 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:30.466 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:30.484 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:30.484 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:30.486 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 15:19:31.339 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:31.339 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:19:31.362 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 15:19:31.384 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 15:19:31.979 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 15:19:31.982 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 15:21:42.534 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458014 (10.148.0.38) 1.020000ms
+[D 15:21:42.538 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458015 (10.148.0.38) 0.570000ms
+[D 15:21:42.619 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458016 (10.148.0.38) 1.230000ms
+[D 15:21:45.490 NotebookApp] 200 GET /r11i5n5_8009/api/contents?type=directory&_=1634130458017 (10.148.0.38) 2.730000ms
+[D 15:21:47.435 NotebookApp] 200 GET /r11i5n5_8009/api/contents/results?type=directory&_=1634130458018 (10.148.0.38) 24.400000ms
+[D 15:21:54.108 NotebookApp] 200 GET /r11i5n5_8009/api/contents?type=directory&_=1634130458019 (10.148.0.38) 2.740000ms
+[D 15:22:01.071 NotebookApp] Using contents: services/contents
+[D 15:22:01.093 NotebookApp] Path base/images/favicon-file.ico served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/base/images/favicon-file.ico
+[D 15:22:01.097 NotebookApp] Path components/codemirror/addon/dialog/dialog.css served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/components/codemirror/addon/dialog/dialog.css
+[D 15:22:01.100 NotebookApp] Path edit/js/main.min.js served from /linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/lib/python3.9/site-packages/notebook/static/edit/js/main.min.js
+[D 15:22:01.106 NotebookApp] 200 GET /r11i5n5_8009/edit/stderr.txt (10.148.0.38) 36.240000ms
+[D 15:22:01.256 NotebookApp] 200 GET /r11i5n5_8009/static/components/codemirror/addon/dialog/dialog.css?v=e7f5db4afaccf8a00c10d62c3693642323d3fcf17604a4797803df04e4f144a944dc646c2fda20548df538ada775570127b2a15403996a171ced1769697f3ee4 (10.148.0.38) 1.000000ms
+[D 15:22:01.258 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 1.860000ms
+[D 15:22:01.300 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 0.910000ms
+[D 15:22:01.310 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 3.040000ms
+[D 15:22:01.319 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e (10.148.0.38) 1.540000ms
+[D 15:22:01.320 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 1.610000ms
+[D 15:22:01.322 NotebookApp] 304 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 1.570000ms
+[D 15:22:01.324 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 1.500000ms
+[D 15:22:01.340 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 1.190000ms
+[D 15:22:01.352 NotebookApp] 304 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 1.850000ms
+[D 15:22:01.358 NotebookApp] 304 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 2.170000ms
+[D 15:22:01.416 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.770000ms
+[D 15:22:01.432 NotebookApp] 200 GET /r11i5n5_8009/static/edit/js/main.min.js?v=d4492d392bd98f30d940992ada6671152e6c880df2793f585c47f72c7733668e57f9a119eeca0c51ac1c7557dc7b285a5d4fb9e0c4ac85dec6cd312116e504f5 (10.148.0.38) 27.480000ms
+[D 15:22:04.123 NotebookApp] 304 GET /r11i5n5_8009/static/services/contents.js?v=20211013150657 (10.148.0.38) 2.280000ms
+[D 15:22:04.150 NotebookApp] 200 GET /r11i5n5_8009/static/base/images/favicon-file.ico?v=f9f0a782d7d67b3a57bf7dce251d771b405c7890604576ec8b9a621a39d7670f6b43ffabef1e566f1cd741ee302e15977d9e1cf60bbacebafe75787b9916415c (10.148.0.38) 0.930000ms
+[D 15:22:04.180 NotebookApp] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[D 15:22:04.180 NotebookApp] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[D 15:22:04.183 NotebookApp] Paths used for configuration of edit: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/edit.json
+[D 15:22:04.184 NotebookApp] Paths used for configuration of edit: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/edit.json
+[D 15:22:04.184 NotebookApp] 200 GET /r11i5n5_8009/api/config/edit?_=1634131324079 (10.148.0.38) 5.280000ms
+[D 15:22:04.186 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 15:22:04.186 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 15:22:04.186 NotebookApp] Paths used for configuration of common: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/common.json
+[D 15:22:04.187 NotebookApp] Paths used for configuration of common: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/common.json
+[D 15:22:04.187 NotebookApp] 200 GET /r11i5n5_8009/api/config/common?_=1634131324080 (10.148.0.38) 2.330000ms
+[D 15:22:04.223 NotebookApp] 200 GET /r11i5n5_8009/api/contents/stderr.txt?type=file&format=text&_=1634131324081 (10.148.0.38) 18.630000ms
+[D 15:22:04.255 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.js?v=20211013150657 (10.148.0.38) 0.810000ms
+[D 15:22:04.363 NotebookApp] 304 GET /r11i5n5_8009/static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (10.148.0.38) 2.160000ms
+[D 15:22:13.015 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458020 (10.148.0.38) 0.900000ms
+[D 15:22:13.017 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458021 (10.148.0.38) 0.570000ms
+[D 15:22:13.107 NotebookApp] 200 GET /r11i5n5_8009/api/contents?type=directory&_=1634130458022 (10.148.0.38) 2.540000ms
+[D 15:22:15.116 NotebookApp] Using contents: services/contents
+[D 15:22:15.118 NotebookApp] 200 GET /r11i5n5_8009/edit/stdout.txt (10.148.0.38) 2.510000ms
+[D 15:22:15.272 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 0.910000ms
+[D 15:22:15.273 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 0.800000ms
+[D 15:22:15.312 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 0.740000ms
+[D 15:22:15.320 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e (10.148.0.38) 0.770000ms
+[D 15:22:15.321 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 0.930000ms
+[D 15:22:15.327 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/addon/dialog/dialog.css?v=e7f5db4afaccf8a00c10d62c3693642323d3fcf17604a4797803df04e4f144a944dc646c2fda20548df538ada775570127b2a15403996a171ced1769697f3ee4 (10.148.0.38) 0.940000ms
+[D 15:22:15.329 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 0.780000ms
+[D 15:22:15.330 NotebookApp] 304 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 0.760000ms
+[D 15:22:15.352 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 0.750000ms
+[D 15:22:15.361 NotebookApp] 304 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 0.750000ms
+[D 15:22:15.369 NotebookApp] 304 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 0.750000ms
+[D 15:22:15.400 NotebookApp] 304 GET /r11i5n5_8009/static/edit/js/main.min.js?v=d4492d392bd98f30d940992ada6671152e6c880df2793f585c47f72c7733668e57f9a119eeca0c51ac1c7557dc7b285a5d4fb9e0c4ac85dec6cd312116e504f5 (10.148.0.38) 0.780000ms
+[D 15:22:15.416 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.760000ms
+[D 15:22:15.548 NotebookApp] 304 GET /r11i5n5_8009/static/services/contents.js?v=20211013150657 (10.148.0.38) 0.750000ms
+[D 15:22:15.614 NotebookApp] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[D 15:22:15.614 NotebookApp] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[D 15:22:15.615 NotebookApp] Paths used for configuration of edit: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/edit.json
+[D 15:22:15.615 NotebookApp] Paths used for configuration of edit: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/edit.json
+[D 15:22:15.616 NotebookApp] 200 GET /r11i5n5_8009/api/config/edit?_=1634131335504 (10.148.0.38) 2.430000ms
+[D 15:22:15.617 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 15:22:15.617 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 15:22:15.618 NotebookApp] Paths used for configuration of common: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/common.json
+[D 15:22:15.618 NotebookApp] Paths used for configuration of common: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/common.json
+[D 15:22:15.619 NotebookApp] 200 GET /r11i5n5_8009/api/config/common?_=1634131335505 (10.148.0.38) 2.300000ms
+[D 15:22:15.647 NotebookApp] 200 GET /r11i5n5_8009/api/contents/stdout.txt?type=file&format=text&_=1634131335506 (10.148.0.38) 1.080000ms
+[D 15:22:15.688 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.js?v=20211013150657 (10.148.0.38) 0.790000ms
+[D 15:22:15.732 NotebookApp] 304 GET /r11i5n5_8009/static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (10.148.0.38) 0.780000ms
+[D 15:22:19.022 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb?content=0&_=1634130468664 (10.148.0.38) 1.080000ms
+[D 15:22:20.864 NotebookApp] Using contents: services/contents
+[D 15:22:20.866 NotebookApp] 304 GET /r11i5n5_8009/edit/stderr.txt (10.148.0.38) 2.430000ms
+[D 15:22:21.005 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=fb45616eef2c454960f91fcd2a04efeda84cfacccf0c5d741ba2793dc1dbd6d3ab01aaae6485222945774c7d7a9a2e9fb87e0d8ef1ea96893aa6906147a371bb (10.148.0.38) 0.880000ms
+[D 15:22:21.050 NotebookApp] 304 GET /r11i5n5_8009/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=5edf53bf6bb9c3b1ddafd8594825a7e2ed621f19423e569c985162742f63911c09eba2c529f8fb47aebf27fafdfe287d563347f58c1126b278189a18871b6a9a (10.148.0.38) 0.800000ms
+[D 15:22:21.062 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.css (10.148.0.38) 0.860000ms
+[D 15:22:21.064 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/lib/codemirror.css?v=81fecb54f83101e2bbe6d2e3131e252ac83f2910366100ca83ba4834f5d41754c837f306eecfdceed05f9c9111614942e2ced5acdd8040746b66c6bef0141d0e (10.148.0.38) 1.000000ms
+[D 15:22:21.065 NotebookApp] 304 GET /r11i5n5_8009/static/components/codemirror/addon/dialog/dialog.css?v=e7f5db4afaccf8a00c10d62c3693642323d3fcf17604a4797803df04e4f144a944dc646c2fda20548df538ada775570127b2a15403996a171ced1769697f3ee4 (10.148.0.38) 0.990000ms
+[D 15:22:21.066 NotebookApp] 304 GET /r11i5n5_8009/static/style/style.min.css?v=b092d0a2da5df36f2b073ddb4eafcd6c8094c4fa21b6dcd3f7185ce16c04ad66424083d785b81607a26b4b85b69a560574ada7db75262c886655f99d651c482e (10.148.0.38) 0.800000ms
+[D 15:22:21.095 NotebookApp] 304 GET /r11i5n5_8009/static/components/es6-promise/promise.min.js?v=bea335d74136a63ae1b5130f5ac9a50c6256a5f435e6e09fef599491a84d834a8b0f011ca3eaaca3b4ab6a2da2d3e1191567a2f171e60da1d10e5b9d52f84184 (10.148.0.38) 0.750000ms
+[D 15:22:21.103 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react.production.min.js?v=9a0aaf84a316c8bedd6c2ff7d5b5e0a13f8f84ec02442346cba0b842c6c81a6bf6176e64f3675c2ebf357cb5bb048e0b527bd39377c95681d22468da3d5de735 (10.148.0.38) 0.750000ms
+[D 15:22:21.120 NotebookApp] 304 GET /r11i5n5_8009/static/components/react/react-dom.production.min.js?v=6fc58c1c4736868ff84f57bd8b85f2bdb985993a9392718f3b4af4bfa10fb4efba2b4ddd68644bd2a8daf0619a3844944c9c43f8528364a1aa6fc01ec1b8ae84 (10.148.0.38) 1.130000ms
+[D 15:22:21.121 NotebookApp] 304 GET /r11i5n5_8009/static/components/requirejs/require.js?v=d37b48bb2137faa0ab98157e240c084dd5b1b5e74911723aa1d1f04c928c2a03dedf922d049e4815f7e5a369faa2e6b6a1000aae958b7953b5cc60411154f593 (10.148.0.38) 1.350000ms
+[D 15:22:21.122 NotebookApp] 304 GET /r11i5n5_8009/static/components/create-react-class/index.js?v=894ad57246e682b4cfbe7cd5e408dcd6b38d06af4de4f3425991e2676fdc2ef1732cbd19903104198878ae77de12a1996de3e7da3a467fb226bdda8f4618faec (10.148.0.38) 0.880000ms
+[D 15:22:21.177 NotebookApp] 304 GET /r11i5n5_8009/static/edit/js/main.min.js?v=d4492d392bd98f30d940992ada6671152e6c880df2793f585c47f72c7733668e57f9a119eeca0c51ac1c7557dc7b285a5d4fb9e0c4ac85dec6cd312116e504f5 (10.148.0.38) 0.760000ms
+[D 15:22:21.179 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (10.148.0.38) 0.870000ms
+[I 15:22:21.284 NotebookApp] Saving file at /notebooks/eval_4dvarnet.ipynb
+[D 15:22:21.284 NotebookApp] Saving /gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60/notebooks/eval_4dvarnet.ipynb
+[D 15:22:21.822 NotebookApp] 200 PUT /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb (10.148.0.38) 2565.440000ms
+[D 15:22:21.827 NotebookApp] 304 GET /r11i5n5_8009/static/services/contents.js?v=20211013150657 (10.148.0.38) 0.920000ms
+[D 15:22:21.969 NotebookApp] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[D 15:22:21.969 NotebookApp] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[D 15:22:21.970 NotebookApp] Paths used for configuration of edit: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/edit.json
+[D 15:22:21.970 NotebookApp] Paths used for configuration of edit: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/edit.json
+[D 15:22:21.970 NotebookApp] 200 GET /r11i5n5_8009/api/config/edit?_=1634131341258 (10.148.0.38) 2.510000ms
+[D 15:22:21.972 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 15:22:21.972 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 15:22:21.973 NotebookApp] Paths used for configuration of common: 
+    	/linkhome/rech/genlst01/ueh53pd/.conda/envs/notebooks/etc/jupyter/nbconfig/common.json
+[D 15:22:21.973 NotebookApp] Paths used for configuration of common: 
+    	/gpfs7kw/linkhome/rech/genlst01/ueh53pd/.jupyter/nbconfig/common.json
+[D 15:22:21.973 NotebookApp] 200 GET /r11i5n5_8009/api/config/common?_=1634131341259 (10.148.0.38) 2.330000ms
+[D 15:22:21.995 NotebookApp] 200 GET /r11i5n5_8009/api/contents/stderr.txt?type=file&format=text&_=1634131341260 (10.148.0.38) 1.780000ms
+[D 15:22:22.040 NotebookApp] 304 GET /r11i5n5_8009/custom/custom.js?v=20211013150657 (10.148.0.38) 0.810000ms
+[D 15:22:22.139 NotebookApp] 304 GET /r11i5n5_8009/static/components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 (10.148.0.38) 0.770000ms
+[D 15:22:38.012 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458023 (10.148.0.38) 0.890000ms
+[D 15:22:38.014 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458024 (10.148.0.38) 0.580000ms
+[D 15:22:38.094 NotebookApp] 200 GET /r11i5n5_8009/api/contents?type=directory&_=1634130458025 (10.148.0.38) 2.560000ms
+[D 15:22:42.189 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458026 (10.148.0.38) 1.380000ms
+[D 15:29:22.661 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458028 (10.148.0.38) 0.720000ms
+[D 15:29:22.665 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458027 (10.148.0.38) 0.760000ms
+[D 15:29:22.804 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458029 (10.148.0.38) 1.230000ms
+[D 15:33:15.455 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458030 (10.148.0.38) 0.900000ms
+[D 15:33:15.456 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458031 (10.148.0.38) 0.570000ms
+[D 15:33:15.566 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458032 (10.148.0.38) 1.190000ms
+[D 15:47:49.285 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458033 (10.148.0.38) 0.910000ms
+[D 15:47:49.289 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458034 (10.148.0.38) 0.560000ms
+[D 15:47:49.387 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458035 (10.148.0.38) 1.200000ms
+[D 15:49:56.254 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458036 (10.148.0.38) 0.910000ms
+[D 15:49:56.259 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458037 (10.148.0.38) 0.550000ms
+[D 15:49:56.367 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458038 (10.148.0.38) 1.190000ms
+[D 15:52:20.108 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458039 (10.148.0.38) 0.910000ms
+[D 15:52:20.114 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458040 (10.148.0.38) 0.570000ms
+[D 15:52:20.169 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458041 (10.148.0.38) 1.190000ms
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:23.695 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:23.695 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:23.707 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:23.708 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:23.710 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:25.612 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:25.613 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:25.629 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:25.645 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:25.699 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:25.801 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:26.239 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.241 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:26.257 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.257 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:26.258 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:26.260 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:26.477 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.478 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:26.493 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.493 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:26.514 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:26.860 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.861 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:26.876 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:26.876 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:26.878 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:27.094 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.095 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:27.110 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.110 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:27.112 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:27.559 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.560 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:27.575 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.575 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:27.577 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:27.871 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.872 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:27.902 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:27.902 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:27.946 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:28.048 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:28.222 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:28.224 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:28.238 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:28.239 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:28.333 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 16:53:28.335 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:28.919 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:28.920 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:28.936 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:28.936 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:28.938 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:29.391 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:29.392 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:29.407 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:29.411 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:29.421 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 16:53:29.422 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:29.958 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:29.958 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:29.975 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:29.990 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:30.034 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:30.136 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:30.456 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:30.457 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:30.473 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:30.474 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:30.493 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 16:53:30.495 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:30.971 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:30.971 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:30.987 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:30.988 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:30.990 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:31.215 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:31.216 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:31.233 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:31.234 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:31.236 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.309 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.387 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.388 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.389 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.553 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.553 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.654 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.755 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.855 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:31.956 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.057 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.158 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.259 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.260 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.415 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 0.970000ms
+[D 16:53:32.514 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.615 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.715 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.817 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:32.917 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.018 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.119 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.220 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.321 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.322 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.367 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.367 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.471 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.472 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:33.474 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.475 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.476 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.477 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:33.515 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 1.000000ms
+[D 16:53:33.538 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.640 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:33.642 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.643 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.644 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.644 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:33.691 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:33.694 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.694 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.695 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.696 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:33.697 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:33.698 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.699 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.700 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:33.702 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:33.702 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:33.705 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.768 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.840 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.840 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.842 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:33.998 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.089 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.190 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.292 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.393 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.493 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.594 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.695 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.696 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:34.754 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-busy-1.ico (10.148.0.38) 0.920000ms
+[D 16:53:34.937 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.013 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.114 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.215 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.315 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.416 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.517 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.618 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.718 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.719 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.765 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.766 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[D 16:53:35.841 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: stream
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:35.843 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:35.844 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:35.851 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:35.868 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:35.886 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:35.895 NotebookApp] 304 GET /r11i5n5_8009/static/base/images/favicon-notebook.ico (10.148.0.38) 0.910000ms
+[D 16:53:36.002 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 16:53:36.038 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 16:53:36.039 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:36.040 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:36.044 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:36.046 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:36.046 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:36.364 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 16:53:36.414 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_result
+[D 16:53:36.415 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:36.418 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:36.420 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:36.421 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:36.422 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:36.423 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:36.424 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:36.444 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:53:36.461 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:36.461 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: execute_input
+[D 16:53:36.991 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: display_data
+[D 16:53:36.994 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:37.209 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:37.209 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:38.406 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:38.406 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:41.367 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:41.369 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[IPKernelApp] WARNING | No such comm: hv-extension-comm
+[D 16:53:42.142 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (busy)
+[D 16:53:42.143 NotebookApp] activity on 8e61e7bb-6c40-416e-9be4-3f7f540a8c28: status (idle)
+[D 16:54:18.229 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb?content=0&_=1634130468665 (10.148.0.38) 1.010000ms
+[I 16:54:18.419 NotebookApp] Saving file at /notebooks/eval_4dvarnet.ipynb
+[D 16:54:18.419 NotebookApp] Saving /gpfswork/rech/yrf/ueh53pd/2021_4DVARNET_CHALLENGE_NATL60/notebooks/eval_4dvarnet.ipynb
+[D 16:54:18.708 NotebookApp] 200 PUT /r11i5n5_8009/api/contents/notebooks/eval_4dvarnet.ipynb (10.148.0.38) 372.360000ms
+[D 17:14:52.649 NotebookApp] 200 GET /r11i5n5_8009/api/sessions?_=1634130458042 (10.148.0.38) 0.910000ms
+[D 17:14:52.682 NotebookApp] 200 GET /r11i5n5_8009/api/terminals?_=1634130458043 (10.148.0.38) 0.560000ms
+[D 17:14:52.719 NotebookApp] 200 GET /r11i5n5_8009/api/contents/notebooks?type=directory&_=1634130458044 (10.148.0.38) 1.200000ms
