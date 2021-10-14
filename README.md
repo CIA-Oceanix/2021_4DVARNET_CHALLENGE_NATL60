@@ -25,6 +25,7 @@ For reconstruction methods that need a spin-up, the **observations** can be used
 | Method     |   µ(RMSE) |   σ(RMSE) |   λx (degree) |   λt (days) | Notes                     | Reference        |
 |:-----------|------------------------:|---------------------:|-------------------------:|-----------------------:|:--------------------------|:-----------------|
 |    GF/GF        |     1      |      1     |      1         |      1       |              1             |         1         |
+
 **µ(RMSE)**: average RMSE score.  
 **σ(RMSE)**: standard deviation of the RMSE score.  
 **λx**: minimum spatial scale resolved.  
