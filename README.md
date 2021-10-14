@@ -24,7 +24,10 @@ For reconstruction methods that need a spin-up, the **observations** can be used
 ## Leaderboard
 | Method     |   µ(RMSE) |   σ(RMSE) |   λx (degree) |   λt (days) | Notes                     | Reference        |
 |:-----------|------------------------:|---------------------:|-------------------------:|-----------------------:|:--------------------------|:-----------------|
-|    GF/GF        |     1      |      1     |      1         |      1       |              1             |         1         |
+|GF/GF | 0.95  | 0.014  | 0.87 	 | 6.91 | xxx | eval_4dvarnet|
+|GF2/GF | 0.95  | 0.014  | 0.87 	 | 6.91 | xxx | eval_4dvarnet|
+|Fine Tuning/GF | 0.95  | 0.014  | 0.87 	 | 6.91 | xxx | eval_4dvarnet|
+
 
 **µ(RMSE)**: average RMSE score.  
 **σ(RMSE)**: standard deviation of the RMSE score.  
