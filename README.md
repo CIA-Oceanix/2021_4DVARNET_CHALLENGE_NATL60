@@ -52,3 +52,5 @@ The evaluation of the mapping methods is based on the comparison of the SSH reco
 
 ## Data processing
 
+Cross-functional modules are gathered in the src directory. They include tools for regridding, plots, evaluation, writing and reading NetCDF files.
+
