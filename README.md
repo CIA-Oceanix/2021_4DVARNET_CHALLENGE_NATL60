@@ -1,4 +1,4 @@
-# 2021_4DVarNeT_ODC_NATL60
+# 2021_4DVarNet_ODC_NATL60
 
 This repository contains codes and sample notebooks for downloading and processing the 4dvarnet data challenge.
 
