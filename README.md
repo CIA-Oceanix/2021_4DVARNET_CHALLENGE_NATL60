@@ -34,14 +34,6 @@ For reconstruction methods that need a spin-up, the **observations** can be used
 **λx**: minimum spatial scale resolved.  
 **λt**: minimum time scale resolved. 
 
-## Dowload the data
-1- Ground truth data: wget --directory-prefix=../data https://store3.gofile.io/download/7c2b3332-f46c-4901-9a09-b141d62cd4e4/2021a_SSH_mapping_NATL60_4DVarNet_nadirswot_gt.nc
-
-2- Experiences data: wget --directory-prefix=../data https://store3.gofile.io/download/65078c91-55b8-4963-b89e-dac8e7cfc02f/2021a_SSH_mapping_NATL60_4DVarNet_nadirswot_FineTuning.nc
-
-wget --directory-prefix=../data https://store3.gofile.io/download/e1f81597-4430-4077-8dbf-a0fab20b9029/2021a_SSH_mapping_NATL60_4DVarNet_nadirswot_GF2_GF.nc
-
-
 ## Baseline and evaluation
 
 ### Baseline
